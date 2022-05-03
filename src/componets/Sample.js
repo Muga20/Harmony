@@ -1,14 +1,9 @@
 import image from '../img/portfolio-1.png';
 import image2 from '../img/portfolio-2.png';
-
-
-
-
 function Sample () {
     return(
         <div>
-         
-
+        <main id="main">
 <section id="portfolio" className="portfolio ">
   <div className="container ">
 
@@ -50,6 +45,7 @@ function Sample () {
     </div>
   </div>
 </section>
+</main>
         </div>
     )
 }

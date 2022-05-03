@@ -1,7 +1,9 @@
 const Control =()=>{
     return(
-        <div>
-         <a href="#" className="back-to-top d-flex align-items-center justify-content-center bg-dark"><i className="bi bi-arrow-up-short"></i></a>
+        <div className="container float-right">
+            <main id="main">
+         <a href="#" className=" fs-2 text-dark float-sm-end "><i className="fa-solid fa-arrow-up-from-bracket"></i></a>
+           </main>
          </div>
     )
 }

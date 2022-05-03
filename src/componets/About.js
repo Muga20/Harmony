@@ -4,6 +4,7 @@ const About = () => {
     return (
       
     <div>
+      <main id="main">
     <section id="about" className="about">
       <div className="container">
         <div className="title  ">
@@ -42,6 +43,7 @@ const About = () => {
 
       </div>
     </section>
+   </main>
     </div>
      );
 }

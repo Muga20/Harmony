@@ -1,7 +1,8 @@
 function Service() {
     return (
         <div>
-         <section id="services" Name="services">
+            <main id="main">
+         <section id="services" >
            <div className="container rounded mx-auto ">
             <div className="">
            <h2 className="text-primary">Abilities</h2>
@@ -13,6 +14,7 @@ function Service() {
         </div>
     </div>
     </section>
+    </main>
         </div>
     )
 }

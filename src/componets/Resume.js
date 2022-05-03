@@ -2,8 +2,9 @@
 
 function Resume () {
     return ( 
+      <main id="main">
         <div className='container'>
-        <section id="resume" name="resume">
+        <section id="resume">
       <div className="container rounded mx-auto  ">
           <h2 className="text-primary">Resume</h2>
      </div>
@@ -14,7 +15,9 @@ function Resume () {
         </a>
         </button>
         </section>
+        
     </div>
+    </main>
      );
 }
  

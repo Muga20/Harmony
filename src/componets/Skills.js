@@ -1,6 +1,7 @@
 const Skills = () =>{
     return (
 <div>
+<main id="main">
 <section id="skills" className="skills ">
       <div className="container   rounded mx-auto  ">
         <div className="title ">
@@ -15,7 +16,7 @@ const Skills = () =>{
             <div className="progress">
               <span className="skill">HTML <i className="val">69%</i></span>
               <div className="progress-bar-wrap">
-                <div className=" progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className=" progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -50,6 +51,7 @@ const Skills = () =>{
         </div>
       </div>
     </section>
+    </main>
 </div>
     );
 }
